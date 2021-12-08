@@ -10,6 +10,13 @@ A basic app that displays images of random dogs from the internet.
 
 • Displays animations
 
+Demo
+--------------
+Tech
+
+![aDoggyDogWorldApp](https://user-images.githubusercontent.com/59205692/145144553-41d3037f-f923-4cba-ab87-5a7a30e7a729.gif)
+
+
 Tech
 ------------
 • Android Studio
