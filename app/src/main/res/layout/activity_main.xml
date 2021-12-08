@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/bannerImage"
+        android:layout_width="105dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="148dp"
+        android:src="@drawable/doggydogworld"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bannerText" />
+
+    <TextView
+        android:id="@+id/bannerText"
+        android:layout_width="376dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="   It's A Doggy Dog World"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/DogImageHolder"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="224dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="@string/see_who_wants_a_bone"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DogImageHolder" />
+
+    <Button
+        android:id="@+id/prevButton"
+        android:layout_width="226dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="SEE PREVIOUS BONE LOVER"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/dogBone"
+        android:layout_width="107dp"
+        android:layout_height="122dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dogbones" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
