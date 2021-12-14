@@ -1,4 +1,4 @@
-# A-Doggy-Dog-World
+# A Doggy 🐕  World 🌎 
 
 A basic app that displays images of random dogs from the internet. 
 ------------
@@ -23,8 +23,8 @@ Tech
 
 • Kotlin
 
-Resources 
-------------
+Resources
+-----------
 • https://dog.ceo/dog-api/documentation/random
 
 • https://github.com/calren/InspirationalQuotesExercise
